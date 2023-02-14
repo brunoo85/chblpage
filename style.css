@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+:root{
+    --cor-primaria: #e47929;
+    --cor-secundaria: #f3e6d4;
+    --cor-terciaria: #544b3d;
+    --cor-texto: #0C090D;
+
+    --fonte-primaria: 'Inter', sans-serif;
+    --fonte-secundaria: 'Crete Round', serif;
+}
+body{
+    box-sizing: border-box;
+    background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+    color: var(--cor-texto);
+}
+
+.cabecalho{
+    background-color: #EB9A5C;
+    padding: 1% 0% 1% 5%;
+
+}
+
+.cabecalho_menu{
+    display: flex;
+}
+
+.cabecalho_menu li{
+    display: inline-block;
+    margin-right: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1s all;
+}
+
+.cabecalho_menu li:hover{
+    background-color: var(--cor-secundaria);
+ }
+
+.cabecalho_menu_link{
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-texto);
+    text-decoration: none;
+}
+
