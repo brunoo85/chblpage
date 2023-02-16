@@ -25,23 +25,23 @@ body{
     background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
     color: var(--cor-texto);
 }
-
 .cabecalho{
     display: flex;
     flex-direction: row;
     background-color: #EB9A5C;
-    padding: 1% 0% 1% 5%;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .cabecalho_menu{
     display: flex;
+    flex-direction: row;
+    font-weight: 100;
+    padding: 14px;
 }
 
 .cabecalho_menu li{
     display: inline-block;
-    margin-right: 25px;
     padding: 10px;
     border-radius: 10px;
     transition: 1s all;
@@ -53,9 +53,42 @@ body{
 
 .cabecalho_menu_link{
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 300;
     color: var(--cor-texto);
     text-decoration: none;
+}
+
+.apresentacao{
+    margin-bottom: 45px;
+}
+
+.apresentacao_principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.apresentacao_principal_escrito{
+    display:flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.apresentacao_principal_titulo{
+    font-family: var(--fonte-primaria);
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.apresentacao_principal_texto{
+    font-family: var(--fonte-secundaria);
+}
+
+
+.apresentacao__img{
+    height: 350px;
+    width: 350px;
 }
 
