@@ -45,7 +45,8 @@ body{
 }
 
 .cabecalho_menu li:hover{
-    background-color: #A6B6A4;
+    background: #64AAB9;
+    
  }
 
 .cabecalho_menu_link{
