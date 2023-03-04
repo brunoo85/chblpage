@@ -58,15 +58,14 @@ body{
 
 .apresentacao{
     margin-bottom: 45px; 
-    margin-top: 75px;
 }
 
 .apresentacao_principal{
    display: flex;
+   height: 100vh;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-
 }
 
 .apresentacao_principal_escrito{
