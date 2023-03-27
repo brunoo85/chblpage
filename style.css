@@ -51,7 +51,7 @@ body{
 
 .cabecalho_menu_link{
     font-family: var(--fonte-primaria);
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 400;
     text-decoration: none;
 }
@@ -119,6 +119,7 @@ body{
     border-top: 0.4px solid black;
     padding: 32px;
 }
+
 .imagem_fundo{
     height: 100px;
     display: block;
@@ -147,3 +148,63 @@ body{
     color: black;
     text-decoration: none;
   }
+
+  .container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.card{
+    position: relative;
+    width: 280px;
+    height: 300px;
+    margin: 30px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255, 255,255,0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    align-items: center;
+    backdrop-filter: (5);
+}
+
+.imagem{
+    padding-top: 10px;
+    height: 120px;
+    width: 120px;
+    border-radius: 45px;
+}
+
+.imagemCarta{
+    padding-top: 10px;
+    height: 120px;
+    width: 130px;
+    border-radius: 50px;
+}
+
+.content{
+    padding: 20px;
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.card:hover .content{
+    transform: translateY(0px);
+    opacity: 1;
+    background: transparent;
+}
+
+
+
+
+

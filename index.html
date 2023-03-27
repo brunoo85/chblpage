@@ -43,14 +43,38 @@
                 </div>
                 <img class="apresentacao__img" alt="logo do chb-rn" src="images\logoGiro.png">
             </section>
+
             <section class="apresentacao_secundaria">
-                <h3 class="apresentacao_secundaria-título"> Quais são os benefícios?</h3> 
-                <p class="apresentacao_secundaria-paragrafo">Interações exclusivas</p>
-                <p class="apresentacao_secundaria-paragrafo">Prioridades nas sugestões</p>
-                <p class="apresentacao_secundaria-paragrafo">Envio semanal por email do jornal </p>
-                <p class="apresentacao_secundaria-paragrafo">Formulário com impressões sobre as seções</p>
-               
-                
+                <h3 class="apresentacao_secundaria-título"> Quais são os benefícios? Passe o mouse e descubra</h3> 
+                <section class="container"> 
+                    <div class="card">
+                        <div class="content">
+                            <h3 class="apresentacao_secundaria-paragrafo">Interações exclusivas</h3>      
+                            <img src="images\conversa.jpg" class="imagem">
+                         </div>
+                     </div>  
+         
+                 <div class="card">
+                     <div class="content">
+                         <h3 class="apresentacao_secundaria-paragrafo">Prioridades nas sugestões </h3>
+                         <img src="images\hit.jpg" class="imagem">
+                     </div>
+                 </div>
+         
+                 <div class="card">
+                     <div class="content">
+                        <h3 class="apresentacao_secundaria-paragrafo">Envio semanal por email do jornal</h3>
+                        <img src="images\carta.jpg" class="imagemCarta">
+                     </div>
+                 </div>
+
+                 <div class="card">
+                    <div class="content">
+                    <h3 class="apresentacao_secundaria-paragrafo">Formulário com impressões sobre as seções</h3>
+                    <img src="images\aviso.jpg" class="imagem">
+                    </div>
+                </div> 
+             </section> 
             </section>
             
         </main>
@@ -58,7 +82,15 @@
         <footer class="rodape">
             <img class="imagem_fundo" src="images\logoChb.png">
         </footer>
-
+        <script type="text/javascript" src="vanilla-tilt.js"></script>
+        <script>
+            VanillaTilt.init(document.querySelectorAll(".card"), {
+                max: 25,
+                speed: 400,
+                glare: true,
+               
+            });
+        </script>
     </body>
 </html>
 
