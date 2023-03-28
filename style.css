@@ -62,7 +62,7 @@ body{
 
 .apresentacao_principal{
    display: flex;
-   height: 100vh;
+   height: 90vh;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
@@ -138,7 +138,7 @@ body{
     color: black;  
     font-family: var(--fonte-primaria);
     font-size: 15px;
-    box-shadow: 0 0 20px #eee;
+    box-shadow: 0 0 10px #eee;
     border-radius: 25px;
     display: block;
   }
