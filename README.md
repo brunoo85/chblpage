@@ -2,6 +2,13 @@
 
 ## Projeto realizado na avaliação da matéria de Desenvolvimento de dispositivos móveis, ofertada pelo professor Igor Rosberg, no curso Bacharelado em Ciência e Tecnologia, na Universidade Federal do Rio Grande do Norte.
 
+![Giro do Olimpo Landing Page](images/apresentacao.png)
+
+## Índice
+
+- [Site funcionando ](https://girolandingpage.vercel.app)
+- [Instagram do CHB-RN](https://www.instagram.com/camphalfblood_rn/)
+
 ### O objetivo da aplicação é ajudar pessoas que pensam em contratar um serviço de streaming, pois funciona como uma ferramenta de pesquisa rápida e comparação com os outros serviços no mercado nacional. Também auxilia pessoas que possuem vários serviços à encontrarem alguma série ou filme para assistir, com as recomendações.
 
 #### O Cátalogo de Streaming foi pensado em uma versão de demonstração de uma aplicação que viria a ser real, por isso seu contéudo é estático. Ele apresenta vários serviços de streaming que estão no Brasil, com seu preço (ou o valor mínimo dele). Quando clicado, aparecem informações sobre o serviço em questão e algumas recomendações do catálogo. 
