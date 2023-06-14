@@ -42,6 +42,7 @@ body{
     padding: 10px;
     border-radius: 10px;
     transition: 1s all;
+   
 }
 
 .cabecalho_menu li:hover{
@@ -54,6 +55,7 @@ body{
     font-size: 25px;
     font-weight: 400;
     text-decoration: none;
+    color: black;
 }
 
 .apresentacao{
